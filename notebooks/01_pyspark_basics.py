@@ -14,6 +14,8 @@ data = [
 df = spark.createDataFrame(data, ["id", "name", "age", "city"])
 df.show()
 
+
+
 # COMMAND ----------
 
 # Filter operation
